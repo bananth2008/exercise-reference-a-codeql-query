@@ -23,9 +23,6 @@ jobs:
 
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v1
-        
-      - name: Perform CodeQL analysis with codeQL 
-        uses: github/codeql-action/init@v2
         with:
             config-file: ./.github/codeql/codeql-config.yml
 
